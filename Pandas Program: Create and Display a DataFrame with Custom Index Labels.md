@@ -17,8 +17,15 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ---
 
 ## 💻 Program
-Add code here
+```
+import pandas as pd
+l1=eval(input())
+df=pd.DataFrame(l1)
+print(df)
+```
 
 ## Output
+<img width="954" height="374" alt="Screenshot 2025-10-21 123819" src="https://github.com/user-attachments/assets/4728e3f6-c4a2-4d30-9338-8f5f9cd1a7b2" />
 
 ## Result
+successfully created  a **DataFrame** using the **Pandas** library in Python from a given dictionary, and apply specific index labels to the rows.
